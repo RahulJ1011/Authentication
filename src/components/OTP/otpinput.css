@@ -1,0 +1,16 @@
+.otp-container
+{
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.otp{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+h4{
+  text-align: center;
+  margin-top: 70px;
+}

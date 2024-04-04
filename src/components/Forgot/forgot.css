@@ -1,0 +1,42 @@
+.forgot-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.forgot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 50px;
+  box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 39px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+.forgot-heading {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.email {
+  width: 250px;
+  color: black;
+  font-weight: 500;
+  border: 2px sol grey;
+
+}
+
+.forgot-btn{
+  width: 150px;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 45px;
+  border: 2px solid red;
+  color: rgb(214, 64, 64);
+  background-color: rgb(34, 170, 34);
+}

@@ -1,0 +1,90 @@
+.main
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container
+{
+  display: flex;
+  padding: 70px;
+  flex-direction: column;
+  box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+  border-radius: 20px;
+  
+}
+form
+{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.heading
+{
+  text-align: center;
+  margin-bottom: 40px;
+}
+input{
+  height: 40px;
+  border-radius: 10px;
+  border:2px solid rgb(110, 98, 98);
+  color:rgb(51, 49, 49);
+}
+.password
+{
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.password button{
+  width: 40px;
+  border:2px solid transparent;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  background-color: black;
+  
+}
+.password input{
+  width:220px;
+}
+.RePassword{
+  display: flex;
+  gap:10px;
+}
+.RePassword input{
+  width: 220px;
+}
+.RePassword button{
+  width: 40px;
+  border:2px solid transparent;
+  height: 30px;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  background-color: black; 
+}
+.btn{
+  width: 150px;
+  margin-left: 50px;
+  height: 40px;
+  border: 2px solid grey;
+  background-color: rgb(0, 46, 250);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;  
+
+}
+h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.link{
+  text-decoration: none;
+  color: grey;
+}

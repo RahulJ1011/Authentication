@@ -1,0 +1,11 @@
+const express = require('express')
+const { register, login, getUser, local, generateOTP, verifyOtp, resetPassword } = require('../controllers/userController')
+const { verifyUser } = require('../middleware/verify')
+const router = express.Router()
+router.post('/register',register)
+router.post('/login',login)
+router.get('/getUser/:id',verifyUser,getUser)
+router.post('/forgotpassword',local,generateOTP)
+router.post('/verifyOTP',verifyOtp)
+router.put('/reset',verifyUser,resetPassword)
+module.exports = router
